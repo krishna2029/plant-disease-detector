@@ -1,0 +1,108 @@
+.results-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.results-container h2 {
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.disease-info {
+  margin-bottom: 2rem;
+}
+
+.disease-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.confidence-container {
+  margin-bottom: 1rem;
+}
+
+.confidence-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.confidence-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.confidence-text {
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.recommendations {
+  margin-bottom: 1.5rem;
+}
+
+.recommendations h4 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.recommendations ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.recommendations li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.disclaimer {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.disclaimer p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  line-height: 1.4;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .results-container {
+    padding: 1.5rem;
+  }
+  
+  .results-container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .disease-name {
+    font-size: 1.3rem;
+  }
+  
+  .recommendations h4 {
+    font-size: 1.1rem;
+  }
+}
